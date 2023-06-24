@@ -1,5 +1,4 @@
 body {
-    background-image: url("img/bgs/bangkok.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -76,7 +75,7 @@ main {
 
 #clock__time__second{
     font-size: 60pt;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 .clock__date {
@@ -93,13 +92,13 @@ main {
 
 .quote__content {
     text-align: left;
-    font-size: 15pt;
+    font-size: 14pt;
     word-wrap: break-word;
 }
 
 .quote__author {
     text-align: right;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 .util__sites {
