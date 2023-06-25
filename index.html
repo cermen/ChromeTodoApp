@@ -8,7 +8,11 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
+    <div class="login">
+        <h1 class="login__info">What's your name?</h1>
+        <input id="login__name" type="text">
+    </div>
+    <header class="none">
         <h1 class="header__greeting">연욱님 안녕하세요!</h1>
         <div class="header__weather">
             <div class="weather__img">☀️</div>
@@ -18,7 +22,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="none">
         <div class="util">
             <div class="util__clock">
                 <div class="clock__time">12:34<span id="clock__time__second">56</span></div>
@@ -57,21 +61,11 @@
         <div class="todo">
             <h2 class="todo__header">to-do list</h2>
             <ul class="todo__list">
-                <li class="todo__item">
+                <!-- <li class="todo__item">
                     <input type="checkbox" class="todo__check">
                     <div class="todo__title">리액트 게시판 만들기</div>
                     <button class="todo__delete-btn">❌</button>
-                </li>
-                <li class="todo__item">
-                    <input type="checkbox" class="todo__check">
-                    <div class="todo__title">바닐라JS 과제</div>
-                    <button class="todo__delete-btn">❌</button>
-                </li>
-                <li class="todo__item">
-                    <input type="checkbox" class="todo__check">
-                    <div class="todo__title">JS 알고리즘 문제</div>
-                    <button class="todo__delete-btn">❌</button>
-                </li>
+                </li> -->
             </ul>
             <div class="todo__add">
                 <input class="todo__add__input" type="text" placeholder="할 일 입력">
